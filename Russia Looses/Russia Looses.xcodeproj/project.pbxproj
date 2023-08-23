@@ -29,6 +29,8 @@
 		08D9B7A22A9649FD006BC725 /* LoosesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7A12A9649FD006BC725 /* LoosesListViewModel.swift */; };
 		08D9B7A42A965052006BC725 /* DataServiceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7A32A965052006BC725 /* DataServiceKey.swift */; };
 		08D9B7A62A965636006BC725 /* LoosesListViewModelKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7A52A965636006BC725 /* LoosesListViewModelKey.swift */; };
+		08D9B7A82A966A73006BC725 /* LoosesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7A72A966A73006BC725 /* LoosesTableViewCell.swift */; };
+		08D9B7AB2A966D68006BC725 /* UIColor+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7AA2A966D68006BC725 /* UIColor+AppColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		08D9B7A12A9649FD006BC725 /* LoosesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoosesListViewModel.swift; sourceTree = "<group>"; };
 		08D9B7A32A965052006BC725 /* DataServiceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceKey.swift; sourceTree = "<group>"; };
 		08D9B7A52A965636006BC725 /* LoosesListViewModelKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoosesListViewModelKey.swift; sourceTree = "<group>"; };
+		08D9B7A72A966A73006BC725 /* LoosesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoosesTableViewCell.swift; sourceTree = "<group>"; };
+		08D9B7AA2A966D68006BC725 /* UIColor+AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 				08D9B7782A9515F0006BC725 /* Application */,
 				08D9B7772A951166006BC725 /* Resources */,
 				08D9B7952A963D11006BC725 /* Services */,
+				08D9B7A92A966D2D006BC725 /* Extensions */,
 				08D9B77D2A95258C006BC725 /* Common */,
 			);
 			path = "Russia Looses";
@@ -177,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				08D9B7672A950D44006BC725 /* LoosesListViewController.swift */,
+				08D9B7A72A966A73006BC725 /* LoosesTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -225,6 +231,14 @@
 				08D9B79D2A963F92006BC725 /* PersonnelModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		08D9B7A92A966D2D006BC725 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				08D9B7AA2A966D68006BC725 /* UIColor+AppColors.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08D9B77A2A951AF6006BC725 /* Coordinator.swift in Sources */,
+				08D9B7AB2A966D68006BC725 /* UIColor+AppColors.swift in Sources */,
 				08D9B7A22A9649FD006BC725 /* LoosesListViewModel.swift in Sources */,
 				08D9B78C2A953F3F006BC725 /* LoosesListCoordinator.swift in Sources */,
 				08D9B7A02A9649F0006BC725 /* LoosesListViewModelProtocol.swift in Sources */,
@@ -312,6 +327,7 @@
 				08D9B7642A950D44006BC725 /* AppDelegate.swift in Sources */,
 				08D9B7832A953B11006BC725 /* InjectionKey.swift in Sources */,
 				08D9B7A42A965052006BC725 /* DataServiceKey.swift in Sources */,
+				08D9B7A82A966A73006BC725 /* LoosesTableViewCell.swift in Sources */,
 				08D9B7A62A965636006BC725 /* LoosesListViewModelKey.swift in Sources */,
 				08D9B7852A953B9D006BC725 /* InjectedValues.swift in Sources */,
 				08D9B7992A963DC8006BC725 /* DataServiceProtocol.swift in Sources */,
