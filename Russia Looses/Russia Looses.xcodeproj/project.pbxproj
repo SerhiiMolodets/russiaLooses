@@ -9,33 +9,53 @@
 /* Begin PBXBuildFile section */
 		08D9B7642A950D44006BC725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7632A950D44006BC725 /* AppDelegate.swift */; };
 		08D9B7662A950D44006BC725 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7652A950D44006BC725 /* SceneDelegate.swift */; };
-		08D9B7682A950D44006BC725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7672A950D44006BC725 /* ViewController.swift */; };
+		08D9B7682A950D44006BC725 /* LoosesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7672A950D44006BC725 /* LoosesListViewController.swift */; };
 		08D9B76D2A950D45006BC725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D9B76C2A950D45006BC725 /* Assets.xcassets */; };
 		08D9B7702A950D45006BC725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D9B76E2A950D45006BC725 /* LaunchScreen.storyboard */; };
 		08D9B77A2A951AF6006BC725 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7792A951AF6006BC725 /* Coordinator.swift */; };
 		08D9B77C2A951B47006BC725 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B77B2A951B47006BC725 /* AppCoordinator.swift */; };
-		08D9B77F2A952646006BC725 /* ViewControllerInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B77E2A952646006BC725 /* ViewControllerInjection.swift */; };
+		08D9B77F2A952646006BC725 /* LoosesListViewControllerKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B77E2A952646006BC725 /* LoosesListViewControllerKey.swift */; };
 		08D9B7832A953B11006BC725 /* InjectionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7822A953B11006BC725 /* InjectionKey.swift */; };
 		08D9B7852A953B9D006BC725 /* InjectedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7842A953B9D006BC725 /* InjectedValues.swift */; };
 		08D9B7872A953BE5006BC725 /* Injected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7862A953BE5006BC725 /* Injected.swift */; };
 		08D9B78C2A953F3F006BC725 /* LoosesListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B78B2A953F3F006BC725 /* LoosesListCoordinator.swift */; };
+		08D9B7932A9639FB006BC725 /* russia_losses_personnel.json in Resources */ = {isa = PBXBuildFile; fileRef = 08D9B7912A9639FB006BC725 /* russia_losses_personnel.json */; };
+		08D9B7942A9639FB006BC725 /* russia_losses_equipment.json in Resources */ = {isa = PBXBuildFile; fileRef = 08D9B7922A9639FB006BC725 /* russia_losses_equipment.json */; };
+		08D9B7972A963D7B006BC725 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7962A963D7B006BC725 /* DataService.swift */; };
+		08D9B7992A963DC8006BC725 /* DataServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7982A963DC8006BC725 /* DataServiceProtocol.swift */; };
+		08D9B79C2A963F45006BC725 /* EquipmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B79B2A963F45006BC725 /* EquipmentModel.swift */; };
+		08D9B79E2A963F92006BC725 /* PersonnelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B79D2A963F92006BC725 /* PersonnelModel.swift */; };
+		08D9B7A02A9649F0006BC725 /* LoosesListViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B79F2A9649F0006BC725 /* LoosesListViewModelProtocol.swift */; };
+		08D9B7A22A9649FD006BC725 /* LoosesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7A12A9649FD006BC725 /* LoosesListViewModel.swift */; };
+		08D9B7A42A965052006BC725 /* DataServiceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7A32A965052006BC725 /* DataServiceKey.swift */; };
+		08D9B7A62A965636006BC725 /* LoosesListViewModelKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7A52A965636006BC725 /* LoosesListViewModelKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		08D9B7602A950D44006BC725 /* Russia Looses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Russia Looses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D9B7632A950D44006BC725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08D9B7652A950D44006BC725 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		08D9B7672A950D44006BC725 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08D9B7672A950D44006BC725 /* LoosesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoosesListViewController.swift; sourceTree = "<group>"; };
 		08D9B76C2A950D45006BC725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08D9B76F2A950D45006BC725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08D9B7712A950D45006BC725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08D9B7792A951AF6006BC725 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		08D9B77B2A951B47006BC725 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		08D9B77E2A952646006BC725 /* ViewControllerInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInjection.swift; sourceTree = "<group>"; };
+		08D9B77E2A952646006BC725 /* LoosesListViewControllerKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoosesListViewControllerKey.swift; sourceTree = "<group>"; };
 		08D9B7822A953B11006BC725 /* InjectionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionKey.swift; sourceTree = "<group>"; };
 		08D9B7842A953B9D006BC725 /* InjectedValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectedValues.swift; sourceTree = "<group>"; };
 		08D9B7862A953BE5006BC725 /* Injected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injected.swift; sourceTree = "<group>"; };
 		08D9B78B2A953F3F006BC725 /* LoosesListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoosesListCoordinator.swift; sourceTree = "<group>"; };
+		08D9B7912A9639FB006BC725 /* russia_losses_personnel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_personnel.json; sourceTree = "<group>"; };
+		08D9B7922A9639FB006BC725 /* russia_losses_equipment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_equipment.json; sourceTree = "<group>"; };
+		08D9B7962A963D7B006BC725 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		08D9B7982A963DC8006BC725 /* DataServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceProtocol.swift; sourceTree = "<group>"; };
+		08D9B79B2A963F45006BC725 /* EquipmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentModel.swift; sourceTree = "<group>"; };
+		08D9B79D2A963F92006BC725 /* PersonnelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelModel.swift; sourceTree = "<group>"; };
+		08D9B79F2A9649F0006BC725 /* LoosesListViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoosesListViewModelProtocol.swift; sourceTree = "<group>"; };
+		08D9B7A12A9649FD006BC725 /* LoosesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoosesListViewModel.swift; sourceTree = "<group>"; };
+		08D9B7A32A965052006BC725 /* DataServiceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceKey.swift; sourceTree = "<group>"; };
+		08D9B7A52A965636006BC725 /* LoosesListViewModelKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoosesListViewModelKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +91,8 @@
 				08D9B7882A953EBB006BC725 /* Scenes */,
 				08D9B7782A9515F0006BC725 /* Application */,
 				08D9B7772A951166006BC725 /* Resources */,
+				08D9B7952A963D11006BC725 /* Services */,
 				08D9B77D2A95258C006BC725 /* Common */,
-				08D9B7672A950D44006BC725 /* ViewController.swift */,
 			);
 			path = "Russia Looses";
 			sourceTree = "<group>";
@@ -80,6 +100,7 @@
 		08D9B7772A951166006BC725 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				08D9B7902A9639A6006BC725 /* Dataset */,
 				08D9B76C2A950D45006BC725 /* Assets.xcassets */,
 				08D9B76E2A950D45006BC725 /* LaunchScreen.storyboard */,
 				08D9B7712A950D45006BC725 /* Info.plist */,
@@ -102,7 +123,6 @@
 			children = (
 				08D9B7802A953AE9006BC725 /* DI */,
 				08D9B7792A951AF6006BC725 /* Coordinator.swift */,
-				08D9B77E2A952646006BC725 /* ViewControllerInjection.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -138,6 +158,10 @@
 			isa = PBXGroup;
 			children = (
 				08D9B78B2A953F3F006BC725 /* LoosesListCoordinator.swift */,
+				08D9B79A2A963F2C006BC725 /* Model */,
+				08D9B78D2A96381C006BC725 /* View */,
+				08D9B78F2A963965006BC725 /* ViewModel */,
+				08D9B78E2A963902006BC725 /* DI */,
 			);
 			path = LoosesListScene;
 			sourceTree = "<group>";
@@ -147,6 +171,60 @@
 			children = (
 			);
 			path = DetailScene;
+			sourceTree = "<group>";
+		};
+		08D9B78D2A96381C006BC725 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08D9B7672A950D44006BC725 /* LoosesListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08D9B78E2A963902006BC725 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				08D9B77E2A952646006BC725 /* LoosesListViewControllerKey.swift */,
+				08D9B7A32A965052006BC725 /* DataServiceKey.swift */,
+				08D9B7A52A965636006BC725 /* LoosesListViewModelKey.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		08D9B78F2A963965006BC725 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				08D9B79F2A9649F0006BC725 /* LoosesListViewModelProtocol.swift */,
+				08D9B7A12A9649FD006BC725 /* LoosesListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		08D9B7902A9639A6006BC725 /* Dataset */ = {
+			isa = PBXGroup;
+			children = (
+				08D9B7922A9639FB006BC725 /* russia_losses_equipment.json */,
+				08D9B7912A9639FB006BC725 /* russia_losses_personnel.json */,
+			);
+			path = Dataset;
+			sourceTree = "<group>";
+		};
+		08D9B7952A963D11006BC725 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				08D9B7962A963D7B006BC725 /* DataService.swift */,
+				08D9B7982A963DC8006BC725 /* DataServiceProtocol.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		08D9B79A2A963F2C006BC725 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08D9B79B2A963F45006BC725 /* EquipmentModel.swift */,
+				08D9B79D2A963F92006BC725 /* PersonnelModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +285,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D9B7932A9639FB006BC725 /* russia_losses_personnel.json in Resources */,
 				08D9B7702A950D45006BC725 /* LaunchScreen.storyboard in Resources */,
+				08D9B7942A9639FB006BC725 /* russia_losses_equipment.json in Resources */,
 				08D9B76D2A950D45006BC725 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,14 +300,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				08D9B77A2A951AF6006BC725 /* Coordinator.swift in Sources */,
+				08D9B7A22A9649FD006BC725 /* LoosesListViewModel.swift in Sources */,
 				08D9B78C2A953F3F006BC725 /* LoosesListCoordinator.swift in Sources */,
-				08D9B7682A950D44006BC725 /* ViewController.swift in Sources */,
+				08D9B7A02A9649F0006BC725 /* LoosesListViewModelProtocol.swift in Sources */,
+				08D9B79C2A963F45006BC725 /* EquipmentModel.swift in Sources */,
+				08D9B7682A950D44006BC725 /* LoosesListViewController.swift in Sources */,
+				08D9B79E2A963F92006BC725 /* PersonnelModel.swift in Sources */,
 				08D9B7872A953BE5006BC725 /* Injected.swift in Sources */,
 				08D9B77C2A951B47006BC725 /* AppCoordinator.swift in Sources */,
+				08D9B7972A963D7B006BC725 /* DataService.swift in Sources */,
 				08D9B7642A950D44006BC725 /* AppDelegate.swift in Sources */,
 				08D9B7832A953B11006BC725 /* InjectionKey.swift in Sources */,
+				08D9B7A42A965052006BC725 /* DataServiceKey.swift in Sources */,
+				08D9B7A62A965636006BC725 /* LoosesListViewModelKey.swift in Sources */,
 				08D9B7852A953B9D006BC725 /* InjectedValues.swift in Sources */,
-				08D9B77F2A952646006BC725 /* ViewControllerInjection.swift in Sources */,
+				08D9B7992A963DC8006BC725 /* DataServiceProtocol.swift in Sources */,
+				08D9B77F2A952646006BC725 /* LoosesListViewControllerKey.swift in Sources */,
 				08D9B7662A950D44006BC725 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
