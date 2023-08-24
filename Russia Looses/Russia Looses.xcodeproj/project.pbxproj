@@ -14,7 +14,6 @@
 		08D9B7702A950D45006BC725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D9B76E2A950D45006BC725 /* LaunchScreen.storyboard */; };
 		08D9B77A2A951AF6006BC725 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7792A951AF6006BC725 /* Coordinator.swift */; };
 		08D9B77C2A951B47006BC725 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B77B2A951B47006BC725 /* AppCoordinator.swift */; };
-		08D9B77F2A952646006BC725 /* LoosesListViewControllerKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B77E2A952646006BC725 /* LoosesListViewControllerKey.swift */; };
 		08D9B7832A953B11006BC725 /* InjectionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7822A953B11006BC725 /* InjectionKey.swift */; };
 		08D9B7852A953B9D006BC725 /* InjectedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7842A953B9D006BC725 /* InjectedValues.swift */; };
 		08D9B7872A953BE5006BC725 /* Injected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7862A953BE5006BC725 /* Injected.swift */; };
@@ -31,6 +30,13 @@
 		08D9B7A62A965636006BC725 /* LoosesListViewModelKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7A52A965636006BC725 /* LoosesListViewModelKey.swift */; };
 		08D9B7A82A966A73006BC725 /* LoosesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7A72A966A73006BC725 /* LoosesTableViewCell.swift */; };
 		08D9B7AB2A966D68006BC725 /* UIColor+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7AA2A966D68006BC725 /* UIColor+AppColors.swift */; };
+		08D9B7AD2A974EE2006BC725 /* Bundle+Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7AC2A974EE2006BC725 /* Bundle+Decoder.swift */; };
+		08D9B7AF2A978433006BC725 /* DetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7AE2A978433006BC725 /* DetailCoordinator.swift */; };
+		08D9B7B22A9784CE006BC725 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7B12A9784CE006BC725 /* DetailViewController.swift */; };
+		08D9B7B52A978500006BC725 /* DetailViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7B42A978500006BC725 /* DetailViewModelProtocol.swift */; };
+		08D9B7B82A97856A006BC725 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7B72A97856A006BC725 /* DetailViewModel.swift */; };
+		08D9B7BB2A9785AC006BC725 /* DetailViewModelKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7BA2A9785AC006BC725 /* DetailViewModelKey.swift */; };
+		08D9B7BE2A97A867006BC725 /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B7BD2A97A867006BC725 /* DetailModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +49,6 @@
 		08D9B7712A950D45006BC725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08D9B7792A951AF6006BC725 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		08D9B77B2A951B47006BC725 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		08D9B77E2A952646006BC725 /* LoosesListViewControllerKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoosesListViewControllerKey.swift; sourceTree = "<group>"; };
 		08D9B7822A953B11006BC725 /* InjectionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionKey.swift; sourceTree = "<group>"; };
 		08D9B7842A953B9D006BC725 /* InjectedValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectedValues.swift; sourceTree = "<group>"; };
 		08D9B7862A953BE5006BC725 /* Injected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injected.swift; sourceTree = "<group>"; };
@@ -60,6 +65,13 @@
 		08D9B7A52A965636006BC725 /* LoosesListViewModelKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoosesListViewModelKey.swift; sourceTree = "<group>"; };
 		08D9B7A72A966A73006BC725 /* LoosesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoosesTableViewCell.swift; sourceTree = "<group>"; };
 		08D9B7AA2A966D68006BC725 /* UIColor+AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColors.swift"; sourceTree = "<group>"; };
+		08D9B7AC2A974EE2006BC725 /* Bundle+Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Decoder.swift"; sourceTree = "<group>"; };
+		08D9B7AE2A978433006BC725 /* DetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoordinator.swift; sourceTree = "<group>"; };
+		08D9B7B12A9784CE006BC725 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		08D9B7B42A978500006BC725 /* DetailViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelProtocol.swift; sourceTree = "<group>"; };
+		08D9B7B72A97856A006BC725 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		08D9B7BA2A9785AC006BC725 /* DetailViewModelKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelKey.swift; sourceTree = "<group>"; };
+		08D9B7BD2A97A867006BC725 /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +186,11 @@
 		08D9B78A2A953EE2006BC725 /* DetailScene */ = {
 			isa = PBXGroup;
 			children = (
+				08D9B7AE2A978433006BC725 /* DetailCoordinator.swift */,
+				08D9B7BC2A97A855006BC725 /* Model */,
+				08D9B7B02A9784AE006BC725 /* View */,
+				08D9B7B32A9784EB006BC725 /* ViewModel */,
+				08D9B7B92A97858B006BC725 /* DI */,
 			);
 			path = DetailScene;
 			sourceTree = "<group>";
@@ -190,7 +207,6 @@
 		08D9B78E2A963902006BC725 /* DI */ = {
 			isa = PBXGroup;
 			children = (
-				08D9B77E2A952646006BC725 /* LoosesListViewControllerKey.swift */,
 				08D9B7A32A965052006BC725 /* DataServiceKey.swift */,
 				08D9B7A52A965636006BC725 /* LoosesListViewModelKey.swift */,
 			);
@@ -237,8 +253,42 @@
 			isa = PBXGroup;
 			children = (
 				08D9B7AA2A966D68006BC725 /* UIColor+AppColors.swift */,
+				08D9B7AC2A974EE2006BC725 /* Bundle+Decoder.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		08D9B7B02A9784AE006BC725 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08D9B7B12A9784CE006BC725 /* DetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08D9B7B32A9784EB006BC725 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				08D9B7B42A978500006BC725 /* DetailViewModelProtocol.swift */,
+				08D9B7B72A97856A006BC725 /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		08D9B7B92A97858B006BC725 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				08D9B7BA2A9785AC006BC725 /* DetailViewModelKey.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		08D9B7BC2A97A855006BC725 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08D9B7BD2A97A867006BC725 /* DetailModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,15 +363,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D9B7AF2A978433006BC725 /* DetailCoordinator.swift in Sources */,
 				08D9B77A2A951AF6006BC725 /* Coordinator.swift in Sources */,
 				08D9B7AB2A966D68006BC725 /* UIColor+AppColors.swift in Sources */,
 				08D9B7A22A9649FD006BC725 /* LoosesListViewModel.swift in Sources */,
 				08D9B78C2A953F3F006BC725 /* LoosesListCoordinator.swift in Sources */,
+				08D9B7B52A978500006BC725 /* DetailViewModelProtocol.swift in Sources */,
 				08D9B7A02A9649F0006BC725 /* LoosesListViewModelProtocol.swift in Sources */,
+				08D9B7B82A97856A006BC725 /* DetailViewModel.swift in Sources */,
 				08D9B79C2A963F45006BC725 /* EquipmentModel.swift in Sources */,
 				08D9B7682A950D44006BC725 /* LoosesListViewController.swift in Sources */,
+				08D9B7BB2A9785AC006BC725 /* DetailViewModelKey.swift in Sources */,
+				08D9B7AD2A974EE2006BC725 /* Bundle+Decoder.swift in Sources */,
 				08D9B79E2A963F92006BC725 /* PersonnelModel.swift in Sources */,
 				08D9B7872A953BE5006BC725 /* Injected.swift in Sources */,
+				08D9B7BE2A97A867006BC725 /* DetailModel.swift in Sources */,
+				08D9B7B22A9784CE006BC725 /* DetailViewController.swift in Sources */,
 				08D9B77C2A951B47006BC725 /* AppCoordinator.swift in Sources */,
 				08D9B7972A963D7B006BC725 /* DataService.swift in Sources */,
 				08D9B7642A950D44006BC725 /* AppDelegate.swift in Sources */,
@@ -331,7 +388,6 @@
 				08D9B7A62A965636006BC725 /* LoosesListViewModelKey.swift in Sources */,
 				08D9B7852A953B9D006BC725 /* InjectedValues.swift in Sources */,
 				08D9B7992A963DC8006BC725 /* DataServiceProtocol.swift in Sources */,
-				08D9B77F2A952646006BC725 /* LoosesListViewControllerKey.swift in Sources */,
 				08D9B7662A950D44006BC725 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

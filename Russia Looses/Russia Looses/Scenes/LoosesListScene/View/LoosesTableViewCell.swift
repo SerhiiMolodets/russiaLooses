@@ -9,8 +9,10 @@ import UIKit
 
 class LoosesTableViewCell: UITableViewCell {
 
+    // MARK: - Properties
     static let identifier = String(describing: LoosesTableViewCell.self)
     
+    // MARK: - Views
     private let containerView: UIView = {
             let container = UIView()
             container.clipsToBounds = true
@@ -48,11 +50,13 @@ class LoosesTableViewCell: UITableViewCell {
         return imageView
     }()
     
+    // MARK: - Lifecycle funcs
     override func layoutSubviews() {
         super.layoutSubviews()
         setupConstraints()
     }
     
+    // MARK: - Flow funcs
     func configure(title: String, count: Int) {
         self.titleLabel.text = title
         self.countLabel.text = "\(count)"
@@ -81,7 +85,6 @@ class LoosesTableViewCell: UITableViewCell {
             
             arrowImageView.leadingAnchor.constraint(equalTo: titleLabel.trailingAnchor, constant: 8),
             arrowImageView.centerYAnchor.constraint(equalTo: titleLabel.centerYAnchor)
-//            arrowImageView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -66)
         ])
     }
 }

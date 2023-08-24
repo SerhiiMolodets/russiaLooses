@@ -13,22 +13,11 @@ class DataService: DataServiceProtocol {
     var equipmentLooses: [Equipment] = []
     
     func getEquipmentLooses() {
-        guard let equipmentURL = Bundle.main.url(forResource: "russia_losses_equipment", withExtension: "json"),
-              let equipmentData = try? Data(contentsOf: equipmentURL) else { return }
-        do {
-            equipmentLooses = try JSONDecoder().decode([Equipment].self, from: equipmentData)
-        } catch {
-            print("Error decoding JSON: \(error)")
-        }
+        equipmentLooses = Bundle.main.decode(file: "russia_losses_equipment.json")
     }
+    
     func getPersonnelLooses() {
-        guard let personnelURL = Bundle.main.url(forResource: "russia_losses_personnel", withExtension: "json"),
-              let personnelData = try? Data(contentsOf: personnelURL) else { return }
-        do {
-            personnelLooses = try JSONDecoder().decode([Personnel].self, from: personnelData)
-        } catch {
-            print("Error decoding JSON: \(error)")
-        }
+        personnelLooses = Bundle.main.decode(file: "russia_losses_personnel.json")
     }
     
     init() {

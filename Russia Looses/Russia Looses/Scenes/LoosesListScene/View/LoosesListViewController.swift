@@ -9,22 +9,24 @@ import UIKit
 
 class LoosesListViewController: UIViewController {
     
-    @Injected(\.loosesListViewModel) var viewModel
+    // MARK: - Properties
+    var viewModel: LoosesListViewModelProtocol!
     var tableData: [String: Int] {
         viewModel.reduceTotalLoses()
     }
     
-    lazy var loosesTableView: UITableView = {
+    // MARK: - Views
+    private let loosesTableView: UITableView = {
         let tableView = UITableView()
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.backgroundColor = .clear
+        tableView.separatorStyle = .none
         return tableView
     }()
 
+    // MARK: - Lifecycle funcs
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .mainGreen
-        print(viewModel.reduceTotalLoses())
         setupUI()
     }
     
@@ -33,8 +35,10 @@ class LoosesListViewController: UIViewController {
         setupConstraints()
     }
 
+    // MARK: - Flow funcs
     private func setupUI() {
-        navigationController?.navigationBar.tintColor = .mainGreen
+        view.backgroundColor = .mainGreen
+        navigationController?.navigationBar.tintColor = .black
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationItem.title = "Russia Looses"
         loosesTableView.delegate = self
@@ -50,9 +54,9 @@ class LoosesListViewController: UIViewController {
             loosesTableView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
                ])
     }
-
 }
 
+// MARK: - Extensions
 extension LoosesListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         tableData.count
@@ -64,10 +68,13 @@ extension LoosesListViewController: UITableViewDelegate, UITableViewDataSource {
         cell.configure(title: currentKey, count: tableData[currentKey] ?? 0)
         return cell
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let currentKey = Array(tableData.keys.sorted())[indexPath.row]
+        let currentValue = String(tableData[currentKey] ?? 0)
+        viewModel.openDetailController((currentKey, currentValue))
+    }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 181
     }
-    
-    
 }

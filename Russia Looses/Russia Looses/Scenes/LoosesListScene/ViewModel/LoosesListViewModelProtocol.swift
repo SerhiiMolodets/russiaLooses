@@ -9,4 +9,6 @@ import Foundation
 
 protocol LoosesListViewModelProtocol {
     func reduceTotalLoses() -> [String: Int]
+    func openDetailController(_ sender: (String, String))
+    var coordinatorDelegate: LoosesListViewModelCoordinatorDelegate? { get set }
 }
